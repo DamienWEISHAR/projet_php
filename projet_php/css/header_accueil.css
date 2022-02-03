@@ -1,0 +1,83 @@
+/*modifié*/
+header{
+    width: 100vw;
+    top: 0;
+    display:flex;
+    flex-direction: row;
+    background-color:#fbaf53;
+    height: 16vh;
+        
+}
+
+header #logo{
+    height:100%;
+    width:25vw;
+}
+/*modifié*/
+.nav {
+    background-color: #fbaf53;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100vw;
+    height: 16vh;
+    
+    
+}
+/*modifié*/
+.nav a li {
+    display: inline;    
+    list-style: none;
+    font-size: 2rem;    
+}
+
+.nav li:hover {
+    background-color: #0367a3;
+    color: #ddd;
+}
+/*modifié*/
+#momma{
+    background-color:#fbaf53;
+    display:flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;  
+    justify-items: center;
+    height:10vh;     
+    
+}
+
+
+#inscription{
+    grid-column: 1;
+    grid-row: 2;
+    margin: 10%;
+}
+
+#connection{
+    display:flex;
+    grid-column: 1;
+    grid-row: 1;
+    margin: 10%;
+}
+#french {
+    grid-column: 2;
+    grid-row: 1;
+    margin: 2%;
+    padding: 2%;
+}
+
+#english{
+    grid-column: 2;
+    grid-row: 2;
+    margin: 2%;
+    padding:2%
+}
+
+
+@media only screen and (max-width: 800px){
+    #inscription,#connexion,#french,#english{
+        margin: 0.3rem;
+    }
+   
+}
