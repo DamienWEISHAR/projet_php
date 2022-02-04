@@ -1,9 +1,14 @@
 #bg_modal{
-    height:100vh;
+    height:100%;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.7);
     z-index: 1;
-    display:none;    
+    display:none;  
+    position: fixed;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+        
 }
 
 #modal-content{
@@ -18,7 +23,8 @@
     justify-content: center;
     align-items: center;
     margin-top: 30vh;
-    z-index: 2; 
+    z-index: 2;   
+    margin-bottom: 15%;
 }
 
 input{

@@ -1,15 +1,15 @@
 <link rel="stylesheet" href="./css/s_a_e.css">
 
     <header>
-        <a href="./controler_accueil.php"><img id="logo" src="./Images/logo.jpg" alt="logo"></a>
+        <a href="accueil"><img id="logo" src="./Images/logo.jpg" alt="logo"></a>
             <nav class="nav">
-                <a href="./controler_series.php" target="_blank">
+                <a href="series" target="_blank">
                     <li>Séries</li>
                 </a>
-                <a href="./controler_auteurs.php" target="_blank">
+                <a href="auteurs" target="_blank">
                     <li>Auteurs</li>
                 </a>
-                <a href="./controler_editions.php" target="_blank">
+                <a href="editions" target="_blank">
                     <li>Editions</li>
                 </a>
                 <a href="mailto:d.weishar@427hotmail.fr">
@@ -20,7 +20,7 @@
         <!--bouton de connexion-->
         <div id="momma">
             <button id="connexion">Se connecter</button>
-            <button id="inscription"><a href="./controler_inscription">S'inscrire</a></button>
+            <button id="inscription"><a href="inscription">S'inscrire</a></button>
 
 
             <!--bouton de langues

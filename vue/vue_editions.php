@@ -14,9 +14,7 @@
 require_once './header/header_s_a_e.php';
 require_once './model/edition.php';
 
-require_once './manager/manager_editions.php';
-$manager_edition = new Manager_edition();          
-$manager_edition -> recuperation_editions();
+
 
 ?> 
 

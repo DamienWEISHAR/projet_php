@@ -4,15 +4,15 @@
 <script src="./script/header_popup.js" defer></script>
 
 <header>
-        <a href="./controler_accueil.php"><img id="logo" src="./Images/logo.jpg" alt="logo"></a>
+        <a href="accueil"><img id="logo" src="./Images/logo.jpg" alt="logo"></a>
             <nav class="nav">
-                <a href="./controler_series.php" target="_blank">
+                <a href="series" target="_blank">
                     <li>Séries</li>
                 </a>
-                <a href="./controler_auteurs.php" target="_blank">
+                <a href="auteurs" target="_blank">
                     <li>Auteurs</li>
                 </a>
-                <a href="./controler_editions.php" target="_blank">
+                <a href="editions" target="_blank">
                     <li>Editions</li>
                 </a>
                 <a href="mailto:d.weishar@427hotmail.fr">
@@ -27,7 +27,7 @@
            
         <div id="momma">
             <button id="connection">Se connecter</button>
-            <button id="inscription"><a href="./controler_inscription.php">S'inscrire</a></button>
+            <button id="inscription"><a href="inscription">S'inscrire</a></button>
            
 
             <!--bouton de langues
@@ -39,6 +39,8 @@
             <button id="french"><a><img src="./Images/logo_france.jpg" width="50px" height="40px"></a></button>
             <button id="english"><a><img src="./Images/logo_english.jpg" width="50px" height="40px"></a></button>
         </div>
+
+        <!-- Popup de connexion -->
         <div id="bg_modal" class="bg_modal" >
                 <div id="modal-content" >
                     <img id="closed"  src="./Images/close.png" alt="">
