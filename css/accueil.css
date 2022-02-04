@@ -1,0 +1,88 @@
+/*-------------------------------------------------
+Barre de navigation
+--------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Grechen+Fuemen&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Grechen Fuemen', cursive;
+    
+}
+
+
+
+/* ---------------------------------------------------------------
+Barre de recherches
+-------------------------------------------------------------------*/
+
+.barre_recherche{
+   display: flex;
+   align-items: center; 
+   justify-content: center;
+   margin-top: 15px;
+   margin-bottom: 15px;
+  
+}
+.barre_recherche input {
+    height: 5vh;
+    width: 25vw;
+    text-align: center; 
+}
+
+section:nth-of-type(1)>button>img{
+    height: 2.8rem;
+    width: 2.8rem;
+}
+
+ 
+/*-----------------------------------------------------------------
+ Contenu
+ ------------------------------------------------------------------*/
+#texte_accueil{
+    height: 20vh;
+    z-index: 0;
+}
+
+#banniere{
+    opacity: 0.25;
+    width:100vw;
+    height: 20vh; 
+    
+   
+}
+#message_accueil{
+    position: relative;
+    bottom: 200px;
+    
+}
+p, #message_accueil{
+    text-align: center;
+    font-size: 2.5em;
+    color: #0367a3
+}
+
+/*modifié  DON'T TOUCH OR MOVE IT, MOTHERFUCKER!*/
+#news{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+    margin: 0 1rem 0 0;
+    list-style:none;
+}
+  
+@media only screen and (max-width: 800px){
+    #news{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        list-style:none;
+        justify-content:space-between;
+    }
+    #news>li>img{
+        height: 45vh;
+        width: 44vw;    
+        margin-bottom: 2.5vh;    
+        border-radius: 10px;
+    }
+}

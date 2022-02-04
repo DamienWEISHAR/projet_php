@@ -1,0 +1,40 @@
+#bg_modal{
+    height:100vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+    display:none;    
+}
+
+#modal-content{
+    height: 28vh;
+    width: 30vw;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30vh;
+    z-index: 2; 
+}
+
+input{
+    display: block;
+}
+
+button{
+    margin-top: 2vh;
+}
+
+
+/* A CHANGER EN BOUTON DE FERMETURE */
+#closed{
+    position:absolute;
+    top:0.5vh;
+    right:0.5vw;
+    cursor: pointer;
+    
+}
